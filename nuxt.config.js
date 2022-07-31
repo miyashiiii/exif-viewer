@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - view_exif',
-    title: 'view_exif',
+    titleTemplate: '%s',
+    title: 'EXIF viewer',
     htmlAttrs: {
       lang: 'en',
     },

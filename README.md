@@ -1,4 +1,4 @@
-# view_exif
+# EXIF viewer
 
 ## Build Setup
 

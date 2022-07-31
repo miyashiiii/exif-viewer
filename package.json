@@ -1,5 +1,5 @@
 {
-  "name": "view_exif",
+  "name": "exif-viewer",
   "version": "1.0.0",
   "private": true,
   "scripts": {
