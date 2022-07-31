@@ -1,6 +1,5 @@
 <template>
   <v-col>
-
     <v-file-input accept="image/*" @change="getExif"></v-file-input>
     <v-img :src="imgSrc" max-height="300" contain> </v-img>
     <v-simple-table>
@@ -51,7 +50,7 @@ export default {
     dictToList(dict) {
       const list = []
       for (const key in dict) {
-        if (key==="MakerNote")continue
+        if (key === 'MakerNote') continue
         list.push({ key: key, value: dict[key] })
       }
       return list
